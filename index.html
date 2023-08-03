@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Time Converter</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <script defer src="script/main.js"></script>
+    <h2>Time Converter</h2>
+    <form action="#" method="#">
+        <p id="message"></p>
+        <div class="inputvalue">
+            <label for="convert">Convert</label>
+            <input type="text" id="convert">
+        </div>
+        <div class="time-container">
+
+            <label for="time">Select Time</label>
+            <select name="time" id="time1">
+                <option value="Seconds">Seconds</option>
+                <option value="Minutes">Minutes</option>
+                <option value="Hours">Hours</option>
+            </select>
+            <select name="time" id="time2">
+                <option value="Seconds">Seconds</option>
+                <option value="Minutes">Minutes</option>
+                <option value="Hours">Hours</option>
+            </select>
+        </div>
+    
+        <input type="button" value="Converter" onclick="myConverter()">
+        <div>
+            <p id="display"></p>
+        </div>
+    </form>
+</body>
+</html>

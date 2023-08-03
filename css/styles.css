@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Righteous&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 1.5px;
+}
+body {
+    display: grid;
+    place-content:center;
+    height: 100vh;
+}
+form {
+    width: 500px;
+    padding: 20px;
+    background-image: url("../Images/Image.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    height: 300px;
+}
+form label {
+    background-color: aquamarine;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.inputvalue {
+    margin-bottom: 20px;
+}
+.inputvalue input {
+    height: 40px;
+    width: 100%;
+}
+.time-container select{
+    padding: 7px 20px;
+}
+
+form input[type="button"] {
+    height: 40px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#display {
+    margin-top: 20px;
+    background-color: aquamarine;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
